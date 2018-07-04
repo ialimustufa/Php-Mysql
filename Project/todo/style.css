@@ -1,0 +1,91 @@
+/*Main Body*/
+body{
+    background: #A1A6B4;
+}
+
+body, input{
+    font: 1em "Open Sans", sans-serif;
+    color: #363639;
+}
+
+a{
+    text-decoration: none;
+    border-bottom: 1px dashed #363639;
+}
+
+/*Container*/
+.container{
+    background: #EEE;
+    margin: 20px auto;  
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.container #head{
+    font-family: "Shadows Into Light Two", cursive;
+    margin: 0 0 10px 0;
+    border-bottom: 2px solid #363639;
+}
+
+/*List items*/
+.items{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.items .item.done {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.items li, .item-add .input{
+    border: 0;
+    border-bottom: 1px dashed  #AAA;
+    padding: 15px 0px;
+}
+
+.items .done-button{
+    background: #D9dfe1;
+    font-size: 0.8em;
+    color: #363639;
+    padding: 3px 6px;
+    border: 0;
+    opacity: 0.4;
+}
+
+.items li:hover .done-button{
+    opacity: 1;
+}
+
+.delete{
+    float: right;
+}
+.delete a{
+	color: white;
+	background: #a52a2a;
+	padding: 1px 6px;
+	border-radius: 3px;
+    box-shadow: 2px 3px 0 #AAA;
+}
+/*Form*/
+.input{
+    width: 100%;
+}
+
+.submit{
+    background: #FFF;
+    padding: 5px 10px;
+    border: 1px solid #AAA;
+    width: 100%;
+    margin-top: 10px;
+    box-shadow: 3px 3px 0 #AAA;
+}
+
+.input:focus{
+    outline: none;
+} 
